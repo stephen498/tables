@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layout</title>
+    <style>
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        table {
+            border: 3px solid green;
+            border-collapse: collapse;
+        }
+        
+        thead,
+        th {
+            font-weight: bold;
+            border: 3px solid green;
+        }
+        
+        td {
+            border: 3px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Getting started with Layout</h1>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2"> </th>
+                <th>Name</th>
+                <th>Mass</th>
+                <th>Diameter</th>
+                <th>Density</th>
+                <th>Gravity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="2" rowspan="4">Terrestrial Planet</th>
+                <th>Mercury</th>
+                <td>0.33</td>
+                <td>4.879</td>
+                <td>54279</td>
+                <td>3.7</td>
+            </tr>
+            <tr>
+                <th>Venus</th>
+                <td>4.87</td>
+                <td>12104</td>
+                <td>5514</td>
+                <td>8.99</td>
+            </tr>
+            <tr>
+                <th>Earth</th>
+                <td>0.33</td>
+                <td>4.879</td>
+                <td>54279</td>
+                <td>3.7</td>
+            </tr>
+            <tr>
+                <th>Mars</th>
+                <td>0.33</td>
+                <td>4.879</td>
+                <td>54279</td>
+                <td>3.7</td>
+            </tr>
+            <tr>
+                <th rowspan="4">Best</th>
+                <th rowspan="2">Steve</th>
+                <th>pluto</th>
+                <td>3.7</td>
+                <td>0.33</td>
+                <td>4.879</td>
+                <td>54279</td>
+            </tr>
+            <tr>
+                <th>Jupiter</th>
+                <td>3.7</td>
+                <td>0.33</td>
+                <td>4.879</td>
+                <td>54279</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Ope</th>
+                <th>Neptune</th>
+                <td>3.7</td>
+                <td>0.33</td>
+                <td>4.879</td>
+                <td>54279</td>
+            </tr>
+            <tr>
+
+                <th>Saturn</th>
+                <td>3.7</td>
+                <td>0.33</td>
+                <td>4.879</td>
+                <td>54279</td>
+            </tr>
+            <tr>
+                <th colspan="2">Dwarf Planet</th>
+                <th>Uranus</th>
+                <td>3.7</td>
+                <td>0.33</td>
+                <td>4.879</td>
+                <td>54279</td>
+            </tr>
+    </table>
+</body>
+
+</html>
